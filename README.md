@@ -43,7 +43,7 @@ Les commentaires
 ```
 Présentation ressources
 ```
-![Alt text](images/.png?raw=true "Typo & buttons")
+![Alt text](images/show_ressource.png?raw=true "Typo & buttons")
 
 ```
 Présentation d'un élément 

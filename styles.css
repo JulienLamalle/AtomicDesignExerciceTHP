@@ -271,9 +271,63 @@ footer {
 
 /*------------ PRESENTATION RESSOURCE ------------*/
 
+.col.col-lg-8.col-md-8.col-sm-12.imagecontainer {
+  padding: 0;
+}
+.col.col-lg-8.col-md-8.col-sm-12.imagecontainer img {
+  max-width: 100%;
+  max-height: auto;
+} 
+
+.col-lg-4.col-md-4.col-sm-12.rightside {
+  padding: 20px;
+}
+
+#atbottom {
+  margin-top: 70px;
+}
+
+.row.top{
+  background-color: #303030;
+}
+.btn.btn-outline-success.btn-sm.follow {
+  margin-left: 15px;
+}
 
 
+.row.middle {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 20px 20px;
+  border-bottom: 1px solid #303030;
+  border-top: 1px solid #303030;
+}
 
+.col.col-lg-8.col-md-8.col-sm-12.iconscontainer i {
+  margin-left: 15px;
+}
+
+.row.bottom {
+  margin-top: 40px;
+}
+
+.iconsdiv {
+  margin-top: 40px;
+}
+
+.socialicon {
+  margin-right:7px;
+}
+
+.infoscontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#location {
+  margin-top: 15px;
+}
 
 
 /*------------ PRESENTATION ELEMENT ------------*/
