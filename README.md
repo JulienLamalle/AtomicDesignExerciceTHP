@@ -1,6 +1,9 @@
 # Exercice for THP
 
 
+For this exercise I used the Bootswatch "Darkly" UI kit
+
+https://bootswatch.com/darkly/
 
 ```
 Navbar 
