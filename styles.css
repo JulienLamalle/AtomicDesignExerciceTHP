@@ -374,3 +374,10 @@ footer {
 /*------------ ORGA AU CHOIX ------------*/
 
 
+.my-0.card-title {
+  padding-top: 10px;
+}
+
+.card.mb-4.shadow {
+  margin-top: 20px;
+}

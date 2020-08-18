@@ -53,4 +53,4 @@ Présentation d'un élément
 ```
 Un organisme au choix
 ```
-![Alt text](images/.png?raw=true "Typo & buttons")
+![Alt text](images/subscription.png?raw=true "Typo & buttons")
