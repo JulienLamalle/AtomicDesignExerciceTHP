@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orga pour Eventbrite</title>
+    <link href="styles.css" rel="stylesheet" style type="text/css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/darkly/bootstrap.min.css" integrity="sha384-Bo21yfmmZuXwcN/9vKrA5jPUMhr7znVBBeLxT9MA4r2BchhusfJ6+n8TLGUcRAtL" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="commentcontainer container">
+      <div class="avatarcontainer">
+        <img class="commentavatarpicture" src="/images/4k.jpeg" alt="Avatar">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Prénom de l'auteur</h5>
+          <small class="text-info">Il y'a 2 jours</small>
+        </div>
+        <div class="paragraphdiv">
+          <p>On mettra ici tout le contenu du commentaire en question</p>
+        </div>
+      </div>
+    </div>
+    
+
+    <br>
+    
+    <div class="commentcontainer jumbotron">
+      <h1 class="display-5">Espace commentaire</h1>
+      <div class="comment list-group">
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+          <div class="commentcontainer container">
+            <div class="avatarcontainer">
+              <img class="commentavatarpicture" src="/images/4k.jpeg" alt="Avatar">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Prénom de l'auteur</h5>
+                <small class="text-info">Il y'a 2 jours</small>
+              </div>
+              <div class="paragraphdiv">
+                <p>On mettra ici tout le contenu du commentaire en question</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+          <div class="commentcontainer container">
+            <div class="avatarcontainer">
+              <img class="commentavatarpicture" src="/images/banner_event.jpg" alt="Avatar">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Prénom de l'auteur</h5>
+                <small class="text-info">Il y'a 2 jours</small>
+              </div>
+              <div class="paragraphdiv">
+                <p>On mettra ici tout le contenu du commentaire en question</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="commenttextarea form-group">
+        <label for="Textarea">Votre commentaire :</label>
+        <textarea class="form-control" id="Textarea" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-outline-success btn-lg btn-block">Commenter</button>
+    </div>
+  </body>
+</html>
